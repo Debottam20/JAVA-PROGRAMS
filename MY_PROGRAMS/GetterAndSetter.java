@@ -21,7 +21,7 @@ class Employee {
     }
 }
 
-public class GetAndSet {
+public class GetterAndSetter {
     public static void main(String[] args) {
         Employee obj = new Employee();
         obj.setid(19);
