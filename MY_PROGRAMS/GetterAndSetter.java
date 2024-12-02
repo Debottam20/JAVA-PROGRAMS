@@ -4,19 +4,19 @@ class Employee {
     private int id;
     private String name;
 
-    public void setid(int n) {
+    public void setID(int n) {
         id = n;
     }
 
-    public int getid() {
+    public int getID() {
         return id;
     }
 
-    public void setname(String s) {
+    public void setName(String s) {
         name = s;
     }
 
-    public String getname() {
+    public String getName() {
         return name;
     }
 }
@@ -24,9 +24,9 @@ class Employee {
 public class GetterAndSetter {
     public static void main(String[] args) {
         Employee obj = new Employee();
-        obj.setid(19);
-        obj.setname("Debottam");
-        System.out.println("Id = " + obj.getid());
-        System.out.println("Name = " + obj.getname());
+        obj.setID(19);
+        obj.setName("Debottam");
+        System.out.println("ID = " + obj.getID());
+        System.out.println("Name = " + obj.getName());
     }
 }
