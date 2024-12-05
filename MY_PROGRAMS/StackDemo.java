@@ -30,6 +30,7 @@ public class StackDemo {
             System.out.println("1. PushAtTop() \n2. PushAtBottom()\n3. Pop()\n4. Peek()\n5. IsEmpty()\n6. Reverse\n7. Display \n8. Exit");
             System.out.println("Enter your choice : ");
             choice = in.nextInt();
+            in.close();
             switch (choice) {
                 case 1:
                     System.out.println("Enter the number to push : ");

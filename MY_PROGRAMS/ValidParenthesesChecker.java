@@ -22,6 +22,7 @@ public class ValidParenthesesChecker {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the string of parentheses : ");
         String str = in.next();
+        in.close();
         if(isBalanced(str)) {
             System.out.println("Parentheses is balanced");
         } else {

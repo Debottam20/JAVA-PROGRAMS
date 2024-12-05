@@ -1,6 +1,7 @@
 package MY_PROGRAMS;
 
-import java.util.concurrent.atomic.AtomicInteger;
+// import java.util.concurrent.atomic.AtomicInteger;
+// Another way using AtomicInteger
 
 class Counter {
     int count = 0;
