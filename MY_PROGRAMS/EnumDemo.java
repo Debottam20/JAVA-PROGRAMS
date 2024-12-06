@@ -2,7 +2,7 @@ package MY_PROGRAMS;
 import java.util.*;
 
 enum States {
-    NEW,READY,RUNNING,WAITING,TERMINATED
+    NEW,READY,RUNNING,WAITING,TERMINATED;
 }
 
 class AllEnums {
@@ -37,7 +37,7 @@ class EnumWithSwitch {
                 System.out.println("Process completed its execution");
                 break;
             default:
-                System.out.println("Enter valid state name in all caps");
+                System.out.println("Enter valid state name");
         }
     }
 }
@@ -48,9 +48,9 @@ public class EnumDemo {
         AllEnums e = new AllEnums();
         System.out.println("The enums are : ");
         e.printAllEnums();
-        System.out.println("Enter the current known state in all caps : ");
+        System.out.println("Enter the current known state : ");
         String currState = in.next();
-        EnumWithSwitch obj = new EnumWithSwitch(States.valueOf(currState));
+        EnumWithSwitch obj = new EnumWithSwitch(States.valueOf(currState.toUpperCase()));
         obj.check();
     }
 }
